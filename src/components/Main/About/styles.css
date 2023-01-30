@@ -1,0 +1,26 @@
+.about {
+	/* background-color: #ccc; */
+	display: flex;
+	align-items: center;
+
+	margin: 10px auto;
+	width: 80%;
+}
+
+.container-about {
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column;
+	width: 50%;
+}
+
+.container-photo {
+	display: flex;
+	justify-content: flex-end;
+	width: 50%;
+}
+
+.container-photo img {
+	width: 50%;
+	border-radius: 50%;
+}
