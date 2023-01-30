@@ -1,6 +1,7 @@
 import React from 'react';
 import About from './About';
 import Carroussel from './Carroussel';
+import Services from './Services';
 import './styles.css';
 
 const Main = () => {
@@ -8,6 +9,7 @@ const Main = () => {
 		<div className='main'>
 			<Carroussel />
 			<About />
+			<Services />
 		</div>
 	);
 };

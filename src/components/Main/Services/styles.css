@@ -1,0 +1,50 @@
+.services {
+	background-color: #ccc;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0;
+}
+
+.services-photo {
+	width: 50%;
+	justify-content: flex-start;
+}
+
+.services-photo img {
+	width: 100%;
+}
+
+.services-all {
+	width: 50%;
+	display: flex;
+	padding: 0 10%;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.services-work {
+	margin-top: 30px;
+	display: flex;
+	flex-wrap: wrap;
+	/* border: 1px solid red; */
+}
+
+.services-work .service-one {
+	width: 50%;
+	padding: 10px;
+}
+
+.services-work .service-one .title {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+
+.services-work .service-one .title svg {
+	height: 20px;
+}
+
+.services-work .service-one .title h3 {
+	margin-left: 10px;
+}

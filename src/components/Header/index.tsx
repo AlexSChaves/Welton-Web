@@ -24,17 +24,17 @@ const Header = () => {
 				<div className='border-links'>
 					<ul className='links'>
 						<li>
-							<a href='#About'>SOBRE</a>
+							<a href='#about'>SOBRE</a>
 						</li>
 						<li>
-							<a href='http://localhost:3000'>SERVICES</a>
+							<a href='#services'>SERVICES</a>
 						</li>
 						<li>
 							<a href='http://localhost:3000'>PORTFOLIO</a>
 						</li>
 
 						<li>
-							<a href='http://localhost:3000'>CONTACT</a>
+							<a href='#footer'>CONTACT</a>
 						</li>
 					</ul>
 				</div>
