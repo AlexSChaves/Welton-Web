@@ -3,7 +3,7 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin: 0;
+	padding: 20px;
 }
 
 .services-photo {
@@ -13,6 +13,8 @@
 
 .services-photo img {
 	width: 100%;
+	/* padding: 25px; */
+	border-radius: 3%;
 }
 
 .services-all {
@@ -21,13 +23,13 @@
 	padding: 0 10%;
 	flex-direction: column;
 	justify-content: center;
+	/* border: 1px solid red; */
 }
 
 .services-work {
 	margin-top: 30px;
 	display: flex;
 	flex-wrap: wrap;
-	/* border: 1px solid red; */
 }
 
 .services-work .service-one {
