@@ -1,4 +1,7 @@
 import React, { useState } from 'react';
+import img01 from './img/carrossel01.png';
+import img02 from './img/carrossel02.png';
+import img03 from './img/carrossel03.png';
 import './styles.css';
 
 const Carroussel = () => {
@@ -7,19 +10,21 @@ const Carroussel = () => {
 			title: 'Creative Agency',
 			subtitle:
 				'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat nibh.',
-			url: 'http://localhost:3000/images/carrossel01.png',
+			url: img01,
 		},
 		{
 			title: 'Tangible Results',
 			subtitle:
 				'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat nibh.',
-			url: 'http://localhost:3000/images/carrossel02.png',
+
+			url: img02,
 		},
 		{
 			title: 'Premium Designs',
 			subtitle:
 				'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat nibh.',
-			url: 'http://localhost:3000/images/carrossel03.png',
+
+			url: img03,
 		},
 	];
 

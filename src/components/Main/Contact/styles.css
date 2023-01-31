@@ -51,8 +51,15 @@
 .form .button {
 	width: 50%;
 	height: 50px;
-	align-self: center;
+	border: none;
+	border-radius: 20px;
+	align-self: right;
 	margin-bottom: 15px;
+}
+
+.form .button:hover {
+	background-color: white;
+	cursor: pointer;
 }
 
 .contact-general {
