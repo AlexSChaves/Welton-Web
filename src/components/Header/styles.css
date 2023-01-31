@@ -26,15 +26,6 @@
 	justify-content: space-between;
 }
 
-.content {
-	display: flex;
-	justify-content: space-between;
-	/* align-items: baseline; */
-
-	opacity: 0.5;
-	padding: 0 auto;
-}
-
 .logo img {
 	width: 150px;
 }

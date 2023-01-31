@@ -17,7 +17,6 @@ const Header = () => {
 
 	return (
 		<header className={navbar ? 'active' : 'normal'}>
-			{/* <div className='content'> */}
 			<div className='logo'>
 				<img src={logo} alt='Logo' />
 			</div>
@@ -38,7 +37,6 @@ const Header = () => {
 					</li>
 				</ul>
 			</div>
-			{/* </div> */}
 		</header>
 	);
 };

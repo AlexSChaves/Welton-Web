@@ -9,7 +9,7 @@
 }
 
 .footer .logo-footer {
-	padding: 45px;
+	padding: 30px;
 	width: 100%;
 
 	display: flex;
@@ -23,7 +23,7 @@
 
 .footer .bottom {
 	border-top: 1px solid #ccc;
-	padding: 45px;
+	padding: 30px;
 	color: #ccc;
 	width: 80%;
 	display: flex;
