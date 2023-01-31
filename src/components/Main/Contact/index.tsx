@@ -42,7 +42,7 @@ const Contact = () => {
 	};
 
 	return (
-		<div className='container-contact'>
+		<div id='contact' className='container-contact'>
 			<div className='contact-email'>
 				<h1>Contato</h1>
 				<form className='form' onSubmit={sendEmail}>
@@ -69,7 +69,21 @@ const Contact = () => {
 					<input className='button' type='submit' value='Enviar' />
 				</form>
 			</div>
-			<div className='contact-general'>Campo Geral</div>
+			<div className='contact-general'>
+				<div className='options'>
+					<h2>Looking For an Excellent Businees Idea?</h2>
+					<p>
+						Lorem Ipsum is simply dummy text of the printing and typesetting
+						industry. Lorem Ipsum has been the standard dummy text.
+					</p>
+				</div>
+				<div className='address'>
+					<h4>Our Headquarters</h4>
+					<span>301 The Greenhouse, Custard, Factory, London, E2 8DY.</span>
+					<span>+44 (0) 123 456 7890</span>
+					<a href='mailto:no-reply@domain.com'>no-reply@domain.com</a>
+				</div>
+			</div>
 		</div>
 	);
 };
