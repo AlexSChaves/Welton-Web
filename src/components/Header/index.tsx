@@ -29,7 +29,7 @@ const Header = () => {
 						<a href='#services'>SERVICES</a>
 					</li>
 					<li>
-						<a href='http://localhost:3000'>PORTFOLIO</a>
+						<a href='#portfolio'>PORTFOLIO</a>
 					</li>
 
 					<li>

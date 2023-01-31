@@ -52,7 +52,7 @@
 .links li a {
 	color: #fff;
 	text-decoration: none;
-
+	transition: 0.5s;
 	padding: 30px;
 }
 

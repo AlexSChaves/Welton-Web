@@ -1,0 +1,39 @@
+.container-portfolio {
+	padding: 5% 0;
+	margin: 0 7%;
+	border-bottom: 1px solid #ccc;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.portfolio-apresentation {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 70%;
+	/* border: 1px solid red; */
+}
+
+.portfolio-apresentation h1 {
+	margin-bottom: 10px;
+}
+
+.portfolio-apresentation span {
+	padding: 0 25% 5% 25%;
+}
+
+.portfolio-images {
+	/* border: 1px solid; */
+	width: 50%;
+	height: 50%;
+	display: flex;
+
+	flex-wrap: wrap;
+}
+
+.portfolio-images img {
+	width: 50%;
+}
