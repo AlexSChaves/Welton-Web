@@ -4,10 +4,13 @@
 	background-color: #000;
 	position: fixed;
 	width: 100%;
-	padding: 0 auto;
+	/* padding: 0 auto; */
+	padding: 20px 10%;
 	transition: all 0.5s;
 	position: absolute;
 	z-index: 999;
+	display: flex;
+	justify-content: space-between;
 }
 
 .active {
@@ -15,9 +18,12 @@
 	background-color: #000;
 	position: fixed;
 	width: 100%;
-	padding: 0 auto;
+	/* padding: 0 auto; */
+	padding: 10px 10%;
 	transition: all 0.5s;
 	z-index: 999;
+	display: flex;
+	justify-content: space-between;
 }
 
 .content {

@@ -17,28 +17,28 @@ const Header = () => {
 
 	return (
 		<header className={navbar ? 'active' : 'normal'}>
-			<div className='content'>
-				<div className='logo'>
-					<img src={logo} alt='Logo' />
-				</div>
-				<div className='border-links'>
-					<ul className='links'>
-						<li>
-							<a href='#about'>SOBRE</a>
-						</li>
-						<li>
-							<a href='#services'>SERVICES</a>
-						</li>
-						<li>
-							<a href='http://localhost:3000'>PORTFOLIO</a>
-						</li>
-
-						<li>
-							<a href='#contact'>CONTACT</a>
-						</li>
-					</ul>
-				</div>
+			{/* <div className='content'> */}
+			<div className='logo'>
+				<img src={logo} alt='Logo' />
 			</div>
+			<div className='border-links'>
+				<ul className='links'>
+					<li>
+						<a href='#about'>SOBRE</a>
+					</li>
+					<li>
+						<a href='#services'>SERVICES</a>
+					</li>
+					<li>
+						<a href='http://localhost:3000'>PORTFOLIO</a>
+					</li>
+
+					<li>
+						<a href='#contact'>CONTACT</a>
+					</li>
+				</ul>
+			</div>
+			{/* </div> */}
 		</header>
 	);
 };
