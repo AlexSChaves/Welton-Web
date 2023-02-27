@@ -4,8 +4,6 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-
-	/* padding: 45px; */
 }
 
 .footer .logo-footer {
@@ -59,4 +57,18 @@
 	padding-left: 20px;
 	color: #ccc;
 	text-decoration: none;
+}
+
+@media (max-width: 655px) {
+	.footer .bottom .copyright {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-end;
+	}
+}
+
+@media (min-width: 500px) and (max-width: 1000px) {
+	.footer .logo-footer img {
+		width: 80%;
+	}
 }

@@ -17,7 +17,7 @@ const Footer = () => {
 			<div className='bottom'>
 				<div className='conditions'>termos e condições</div>
 				<div className='copyright'>
-					Feito por&nbsp;
+					<p>Feito por&nbsp;</p>
 					<a href='https://www.linkedin.com/in/alex-d-sousa'>Alex Sousa</a>
 				</div>
 				<div className='social-medias'>
