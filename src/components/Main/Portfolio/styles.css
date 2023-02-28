@@ -75,6 +75,18 @@
 	grid-column: span 2;
 }
 
+@media (min-width: 320px) and (max-width: 767px) {
+	.portfolio-apresentation span {
+		padding: 10px 0px;
+	}
+
+	.portfolio-images {
+		width: 100%;
+		padding: 0px;
+		grid-gap: 0px;
+	}
+}
+
 @media (max-width: 768px) {
 	.portfolio-images {
 		grid-template-columns: repeat(1, 1fr);
