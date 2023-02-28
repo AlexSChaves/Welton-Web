@@ -57,3 +57,9 @@
 .links li a:hover {
 	color: #ccc;
 }
+
+@media (min-width: 320px) and (max-width: 768px) {
+	.border-links .links {
+		display: none;
+	}
+}
