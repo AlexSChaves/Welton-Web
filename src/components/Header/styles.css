@@ -45,6 +45,7 @@
 .links li {
 	list-style: none;
 	padding: 5px;
+	overflow-y: hidden;
 }
 
 .links li a {
